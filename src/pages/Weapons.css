@@ -1,0 +1,134 @@
+.warning-page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #292929; /* Тёмный фон */
+  color: #f0fff0; /* Белый текст с лёгким зелёным оттенком */
+  overflow: hidden; /* Предотвращает выход элементов за границы */
+}
+
+.header {
+  background-color: #1c1c1c; /* Чёрный фон */
+  padding: 20px;
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  color: #a2ff99; /* Светло-зелёный заголовок */
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+  max-width: 1200px; /* Ограничение ширины */
+  margin: 0 auto;
+}
+
+h2 {
+  color: #a2ff99; /* Светло-зелёный заголовок */
+}
+
+.banned-weapons-list {
+  list-style: none;
+  padding: 0;
+}
+
+.banned-weapons-list li {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-left: 4px solid #99e6b3; /* Светло-зелёный контур */
+  background-color: #1c1c1c; /* Тёмный фон */
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(153, 230, 179, 0.5); /* Зелёная тень */
+}
+
+.notice {
+  margin-top: 20px;
+  font-size: 16px;
+  color: #99e6b3; /* Светло-зелёный акцент */
+  text-align: center;
+  font-weight: bold;
+}
+
+.menu-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 15px 30px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  color: #f0fff0; /* Белый текст */
+  background-color: #1c1c1c; /* Тёмный фон */
+  border: 2px solid #a2ff99; /* Светло-зелёный контур */
+  border-radius: 8px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  box-shadow: 0 6px 10px rgba(153, 230, 179, 0.5); /* Зелёная тень кнопки */
+  text-decoration: none;
+}
+
+.menu-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 15px rgba(153, 230, 179, 0.7); /* Более глубокая тень */
+  background-color: #2f2f2f; /* Стальной серый фон */
+  border-color: #99e6b3;
+}
+
+.footer {
+  background-color: #0f0f0f;
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+  color: #a2ff99;
+  border-top: 2px solid #99e6b3;
+  position: relative;
+  z-index: 10;
+}
+
+.footer-text {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.footer-icon {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.footer-icon:hover {
+  transform: scale(1.1);
+}
+
+/* Адаптивность */
+@media (max-width: 768px) {
+  .main-content {
+    padding: 15px;
+  }
+
+  .header {
+    font-size: 28px;
+  }
+
+  .menu-button {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .header {
+    font-size: 24px;
+    padding: 10px;
+  }
+
+  .menu-button {
+    font-size: 14px;
+    padding: 8px 15px;
+  }
+
+  .footer {
+    font-size: 12px;
+  }
+}

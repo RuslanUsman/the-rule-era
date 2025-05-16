@@ -1,0 +1,164 @@
+.rules-page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #292929; /* Тёмный фон */
+  color: #f0fff0; /* Белый текст с зелёным оттенком */
+}
+
+.header {
+  background-color: #1c1c1c; /* Чёрный фон */
+  padding: 20px;
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  color: #a2ff99; /* Светло-зелёный текст вместо красного */
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+}
+
+.rules-list {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.rules-list li {
+  margin-bottom: 15px;
+  padding: 10px;
+  border-left: 4px solid #a2ff99; /* Светло-зелёный контур вместо красного */
+  background-color: #1c1c1c; /* Тёмный фон */
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(153, 230, 179, 0.5); /* Лёгкая зелёная тень */
+}
+
+.rules-list li strong {
+  color: #a2ff99; /* Светло-зелёный акцент вместо красного */
+}
+
+.rules-list ul {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.notice {
+  margin-top: 20px;
+  font-size: 16px;
+  color: #99e6b3; /* Светло-зелёный акцент вместо красного */
+  text-align: center;
+  font-weight: bold;
+}
+
+.menu-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 15px 30px;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+  color: #f0fff0; /* Белый текст с зелёным оттенком */
+  background-color: #1c1c1c; /* Чёрный фон кнопки */
+  border: 2px solid #a2ff99; /* Светло-зелёный контур вместо красного */
+  border-radius: 8px; /* Лёгкое скругление */
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  box-shadow: 0 6px 10px rgba(153, 230, 179, 0.5); /* Зелёная тень кнопки */
+  text-decoration: none; /* Убираем подчёркивание текста */
+}
+
+.menu-button:hover {
+  transform: translateY(-3px); /* Эффект поднятия кнопки */
+  box-shadow: 0 8px 15px rgba(153, 230, 179, 0.7); /* Более глубокая зелёная тень при наведении */
+  background-color: #2f2f2f; /* Стальной серый фон */
+  border-color: #99e6b3; /* Более яркий зелёный контур */
+}
+
+.footer {
+  background-color: #0f0f0f; /* Глубокий тёмный фон */
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+  color: #a2ff99; /* Светло-зелёный текст вместо красного */
+  border-top: 2px solid #99e6b3; /* Зелёный верхний контур */
+}
+
+
+
+
+  @media (max-width: 768px) {
+    .rules-list li {
+      padding: 8px; /* Уменьшаем отступы */
+      font-size: 14px; /* Уменьшаем текст для планшетов */
+    }
+  
+    .header {
+      font-size: 28px; /* Оптимизация заголовка */
+    }
+  
+    .menu-button {
+      padding: 10px 20px;
+      font-size: 16px; /* Компактные кнопки для планшетов */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .rules-list {
+      margin: 5px 0;
+    }
+  
+    .rules-list li {
+      font-size: 12px; /* Уменьшаем размер текста для мобильных */
+      margin-bottom: 8px;
+    }
+  
+    .header {
+      font-size: 24px;
+      padding: 5px; /* Заголовок на маленьких экранах */
+    }
+  
+    .notice {
+      font-size: 14px; /* Компактное уведомление */
+    }
+  
+    .menu-button {
+      font-size: 14px;
+      padding: 8px 15px; /* Минимальные размеры кнопок */
+    }
+  
+    .footer {
+      background-color: #0f0f0f; /* Глубокий тёмный фон */
+      padding: 10px;
+      text-align: center;
+      font-size: 14px;
+      color: #f0fff0; /* Белый текст с лёгким зелёным оттенком */
+      border-top: 2px solid #99e6b3; /* Зелёный верхний контур */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+  }
+  
+  .footer-text {
+      font-size: 16px;
+      font-weight: bold;
+      color: #a2ff99; /* Светло-зелёный текст */
+  }
+  
+  .footer-icon {
+      width: 24px;
+      height: 24px;
+      cursor: pointer;
+      transition: transform 0.3s ease;
+  }
+  
+  .footer-icon:hover {
+      transform: scale(1.1); /* Лёгкое увеличение при наведении */
+  }
+  
+  }
+  
