@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/the-rule-era/static/css/main.4f993bbe.css",
-    "main.js": "/the-rule-era/static/js/main.1768faa0.js",
+    "main.css": "/the-rule-era/static/css/main.67cb8aa3.css",
+    "main.js": "/the-rule-era/static/js/main.95bb4954.js",
     "static/js/453.5d9af320.chunk.js": "/the-rule-era/static/js/453.5d9af320.chunk.js",
     "index.html": "/the-rule-era/index.html",
-    "main.4f993bbe.css.map": "/the-rule-era/static/css/main.4f993bbe.css.map",
-    "main.1768faa0.js.map": "/the-rule-era/static/js/main.1768faa0.js.map",
+    "main.67cb8aa3.css.map": "/the-rule-era/static/css/main.67cb8aa3.css.map",
+    "main.95bb4954.js.map": "/the-rule-era/static/js/main.95bb4954.js.map",
     "453.5d9af320.chunk.js.map": "/the-rule-era/static/js/453.5d9af320.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4f993bbe.css",
-    "static/js/main.1768faa0.js"
+    "static/css/main.67cb8aa3.css",
+    "static/js/main.95bb4954.js"
   ]
 }
